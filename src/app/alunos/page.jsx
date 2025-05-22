@@ -38,7 +38,7 @@ export default function Alunos() {
 
             try {
                 const { data: alunos } = await axios.get(
-                    `${process.env.NEXT_PUBLIC_API_URL}/estudantes`,
+                    `${process.env.NEXT_PUBLIC_API_URL}/salas`,
                     {
                         headers: HEADERS,
                     }
